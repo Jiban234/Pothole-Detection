@@ -73,7 +73,7 @@ Applied multiple filtering techniques to enhance image quality:
 - **Median Filter**: Removes salt-and-pepper noise (kernel size: 5)
 - **Bilateral Filter**: Edge-preserving smoothing (d=9, σ=75)
 
-![Filter Comparison](images/01_image_filters_comparison.png)
+![Filter Comparison](images/01_filter_comparison.png)
 
 ### 2. Compression Techniques
 Implemented transform-based compression methods:
@@ -220,7 +220,7 @@ pothole-detection/
 ├── .gitignore                   # Git ignore file
 │
 ├── images/                      # Output visualizations
-    ├── 01_image_filters_comparison.png
+    ├── 01_filter_comparison.png
     ├── 02_transform_compression_comparison.png
     ├── 03_model_performance_heatmap.png
     ├── 04_autoencoder_original_vs_reconstructed.png
@@ -263,7 +263,7 @@ pothole-detection/
 ## 🖼️ Sample Outputs
 
 ### Image Preprocessing
-![Filters](images/01_image_filters_comparison.png)
+![Filters](images/01_filter_comparison.png)
 *Comparison of different filtering techniques*
 
 ### Transform Compression
